@@ -1,4 +1,4 @@
-package shadow.leetcode.add_two_numbers;
+package shadow.leetcode.merge_two_sorted_lists;
 
 class ListNode {
     int val;
