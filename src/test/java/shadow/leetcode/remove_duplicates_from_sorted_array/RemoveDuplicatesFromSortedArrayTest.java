@@ -18,8 +18,8 @@ public class RemoveDuplicatesFromSortedArrayTest {
 
     private static Stream<Arguments> provideArguments() {
         return Stream.of(
-//            Arguments.of(new int[] {1,2,4}, 3),
-//            Arguments.of(new int[] {1, 2, 4, 4, 4, 5, 5, 6}, 5),
+            Arguments.of(new int[] {1,2,4}, 3),
+            Arguments.of(new int[] {1, 2, 4, 4, 4, 5, 5, 6}, 5),
             Arguments.of(new int[] {0,0,1,1,1,2,2,3,3,4}, 5)
         );
     }
