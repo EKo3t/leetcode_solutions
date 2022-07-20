@@ -3,7 +3,7 @@ package shadow.leetcode.string_to_integer_atoi;
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 
-public class StringToIntegerAToI {
+class StringToIntegerAToI {
 
     private static final char ZERO = '0';
     

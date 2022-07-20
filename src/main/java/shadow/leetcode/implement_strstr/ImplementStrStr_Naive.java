@@ -1,6 +1,6 @@
 package shadow.leetcode.implement_strstr;
 
-public class ImplementStrStr_Naive {
+class ImplementStrStr_Naive {
 
     public int strStr(String haystack, String needle) {
         char[] subStrChars = needle.toCharArray();

@@ -1,6 +1,6 @@
 package shadow.leetcode.remove_element;
 
-public class RemoveElement {
+class RemoveElement {
 
     public int removeElement(int[] nums, int val) {
         int leftElementsIndex = -1;

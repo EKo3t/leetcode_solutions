@@ -1,6 +1,6 @@
 package shadow.leetcode.longest_palindromic_substring;
 
-public class LongestPalindromicSubstring {
+class LongestPalindromicSubstring {
 
     public String longestPalindrome(String s) {
         int maxPalindromeLength = -1;

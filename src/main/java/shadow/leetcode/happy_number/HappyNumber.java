@@ -3,7 +3,7 @@ package shadow.leetcode.happy_number;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HappyNumber {
+class HappyNumber {
 
     public boolean isHappy(int n) {
         Set<Integer> hashSet = new HashSet<>();

@@ -1,6 +1,7 @@
 package shadow.leetcode.merge_two_sorted_lists;
 
-public class MergeTwoSortedLists {
+class MergeTwoSortedLists {
+
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode root = new ListNode();
         ListNode mergeIterator = root;

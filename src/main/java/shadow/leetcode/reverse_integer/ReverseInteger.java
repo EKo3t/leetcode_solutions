@@ -1,6 +1,7 @@
 package shadow.leetcode.reverse_integer;
 
-public class ReverseInteger {
+class ReverseInteger {
+
     public int reverse(int x) {
         boolean isNegative = x < 0;
         int positiveX = x < 0 ? x * -1 : x;

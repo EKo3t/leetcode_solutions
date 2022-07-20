@@ -3,7 +3,7 @@ package shadow.leetcode.remove_duplicates_from_sorted_array;
 /**
  * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Task description</a>
  */
-public class RemoveDuplicatesFromSortedArray {
+class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
         int uniqueIndex = 0;

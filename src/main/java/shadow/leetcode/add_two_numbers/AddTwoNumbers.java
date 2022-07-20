@@ -1,6 +1,6 @@
 package shadow.leetcode.add_two_numbers;
 
-public class AddTwoNumbers {
+class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode root = new ListNode();

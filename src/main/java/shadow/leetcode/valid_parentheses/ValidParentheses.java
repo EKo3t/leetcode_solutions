@@ -3,7 +3,7 @@ package shadow.leetcode.valid_parentheses;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class ValidParentheses {
+class ValidParentheses {
 
     public boolean isValid(String s) {
         if (s.length() % 2 == 1) {
