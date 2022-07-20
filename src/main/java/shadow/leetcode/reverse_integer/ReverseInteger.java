@@ -1,5 +1,8 @@
 package shadow.leetcode.reverse_integer;
 
+/**
+ * @see <a href="https://leetcode.com/problems/reverse-integer/">Task description</a>
+ */
 class ReverseInteger {
 
     public int reverse(int x) {

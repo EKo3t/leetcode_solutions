@@ -1,5 +1,8 @@
 package shadow.leetcode.merge_two_sorted_lists;
 
+/**
+ * @see <a href="https://leetcode.com/problems/merge-two-sorted-lists/">Task description</a>
+ */
 class MergeTwoSortedLists {
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

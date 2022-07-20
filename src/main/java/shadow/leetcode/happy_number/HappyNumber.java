@@ -3,6 +3,9 @@ package shadow.leetcode.happy_number;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @see <a href="https://leetcode.com/problems/happy-number/">Task description</a>
+ */
 class HappyNumber {
 
     public boolean isHappy(int n) {

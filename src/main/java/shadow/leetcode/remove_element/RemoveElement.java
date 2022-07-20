@@ -1,5 +1,8 @@
 package shadow.leetcode.remove_element;
 
+/**
+ * @see <a href="https://leetcode.com/problems/remove-element/">Task description</a>
+ */
 class RemoveElement {
 
     public int removeElement(int[] nums, int val) {

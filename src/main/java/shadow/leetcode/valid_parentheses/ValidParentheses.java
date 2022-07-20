@@ -3,6 +3,9 @@ package shadow.leetcode.valid_parentheses;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * @see <a href="https://leetcode.com/problems/valid-parentheses/">Task description</a>
+ */
 class ValidParentheses {
 
     public boolean isValid(String s) {

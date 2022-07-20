@@ -3,6 +3,9 @@ package shadow.leetcode.string_to_integer_atoi;
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 
+/**
+ * @see <a href="https://leetcode.com/problems/string-to-integer-atoi/">Task description</a>
+ */
 class StringToIntegerAToI {
 
     private static final char ZERO = '0';

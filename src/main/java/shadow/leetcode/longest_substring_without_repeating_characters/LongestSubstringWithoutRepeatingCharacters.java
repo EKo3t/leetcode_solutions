@@ -3,6 +3,9 @@ package shadow.leetcode.longest_substring_without_repeating_characters;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @see <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Task description</a>
+ */
 class LongestSubstringWithoutRepeatingCharacters {
 
     public int lengthOfLongestSubstring(String s) {

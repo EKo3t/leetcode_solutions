@@ -1,5 +1,8 @@
 package shadow.leetcode.remove_linked_list_elements;
 
+/**
+ * @see <a href="https://leetcode.com/problems/remove-linked-list-elements/">Task description</a>
+ */
 class RemoveLinkedListElements {
 
     public ListNode removeElements(ListNode head, int val) {

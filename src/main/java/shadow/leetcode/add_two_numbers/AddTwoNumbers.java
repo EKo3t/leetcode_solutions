@@ -1,5 +1,8 @@
 package shadow.leetcode.add_two_numbers;
 
+/**
+ * @see <a href="https://leetcode.com/problems/add-two-numbers/">Task description</a>
+ */
 class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

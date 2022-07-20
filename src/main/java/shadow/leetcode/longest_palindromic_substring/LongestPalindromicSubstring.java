@@ -1,5 +1,8 @@
 package shadow.leetcode.longest_palindromic_substring;
 
+/**
+ * @see <a href="https://leetcode.com/problems/longest-palindromic-substring/">Task description</a>
+ */
 class LongestPalindromicSubstring {
 
     public String longestPalindrome(String s) {

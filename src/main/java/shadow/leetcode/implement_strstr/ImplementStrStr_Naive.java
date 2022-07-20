@@ -1,5 +1,8 @@
 package shadow.leetcode.implement_strstr;
 
+/**
+ * @see <a href="https://leetcode.com/problems/implement-strstr/">Task description</a>
+ */
 class ImplementStrStr_Naive {
 
     public int strStr(String haystack, String needle) {
