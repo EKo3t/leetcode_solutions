@@ -7,7 +7,7 @@ repositories {
 }
 
 ext {
-    junitVersion = '5.8.2'
+    String junitVersion = "5.8.2"
 }
 
 dependencies {
