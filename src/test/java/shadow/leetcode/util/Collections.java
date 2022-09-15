@@ -1,8 +1,6 @@
 package shadow.leetcode.util;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public final class Collections {
 
@@ -15,5 +13,9 @@ public final class Collections {
             }
         }
         return strings1Set.isEmpty();
+    }
+
+    public static <T> List<T> newArrayList(T... elements) {
+        return new ArrayList<>(Arrays.asList(elements));
     }
 }
