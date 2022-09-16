@@ -2,6 +2,7 @@ package shadow.leetcode;
 
 /**
  * @see <a href="https://leetcode.com/problems/implement-strstr/">Task description</a>
+ * Difficulty: medium
  */
 class ImplementStrStr_Naive {
 

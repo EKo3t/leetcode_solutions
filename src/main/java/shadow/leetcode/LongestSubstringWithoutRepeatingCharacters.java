@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * @see <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Task description</a>
+ * Difficulty: medium
  */
 class LongestSubstringWithoutRepeatingCharacters {
 

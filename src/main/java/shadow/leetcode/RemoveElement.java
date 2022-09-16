@@ -2,6 +2,7 @@ package shadow.leetcode;
 
 /**
  * @see <a href="https://leetcode.com/problems/remove-element/">Task description</a>
+ * Difficulty: easy
  */
 class RemoveElement {
 

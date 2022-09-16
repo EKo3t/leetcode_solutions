@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/merge-sorted-array/">Task description</a>
+ * Difficulty: easy
+ */
 public class MergeSortedArray {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {

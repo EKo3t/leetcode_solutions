@@ -5,6 +5,7 @@ import java.util.Deque;
 
 /**
  * @see <a href="https://leetcode.com/problems/valid-parentheses/">Task description</a>
+ * Difficulty: easy
  */
 class ValidParentheses {
 

@@ -2,6 +2,10 @@ package shadow.leetcode;
 
 import java.util.Arrays;
 
+/**
+ * @see <a href="https://leetcode.com/problems/find-original-array-from-doubled-array/">Task description</a>
+ * Difficulty: medium
+ */
 public class FindOriginalArrayFromDoubled {
 
     public int[] findOriginalArray(int[] changed) {

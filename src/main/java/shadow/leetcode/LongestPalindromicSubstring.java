@@ -2,6 +2,7 @@ package shadow.leetcode;
 
 /**
  * @see <a href="https://leetcode.com/problems/longest-palindromic-substring/">Task description</a>
+ * Difficulty: medium
  */
 class LongestPalindromicSubstring {
 

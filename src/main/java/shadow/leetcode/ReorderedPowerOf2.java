@@ -4,6 +4,10 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
+/**
+ * @see <a href="https://leetcode.com/problems/reordered-power-of-2/">Task description</a>
+ * Difficulty: medium
+ */
 public class ReorderedPowerOf2 {
 
     private static final Set<DigitsCountInNumber> DIGITS_COUNT_IN_NUMBERS = new HashSet<>();

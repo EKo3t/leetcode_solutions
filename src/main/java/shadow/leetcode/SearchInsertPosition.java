@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/search-insert-position/">Task description</a>
+ * Difficulty: easy
+ */
 public class SearchInsertPosition {
 
     public int searchInsert(int[] nums, int target) {

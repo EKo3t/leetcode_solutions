@@ -4,6 +4,7 @@ import shadow.leetcode.util.IntListNode;
 
 /**
  * @see <a href="https://leetcode.com/problems/merge-two-sorted-lists/">Task description</a>
+ * Difficulty: easy
  */
 class MergeTwoSortedLists {
 

@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/add-binary/">Task description</a>
+ * difficulty: Easy
+ */
 public class AddBinary {
 
     public String addBinary(String a, String b) {

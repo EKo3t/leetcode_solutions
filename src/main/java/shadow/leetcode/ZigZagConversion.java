@@ -3,6 +3,10 @@ package shadow.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @see <a href="https://leetcode.com/problems/zigzag-conversion/">Task description</a>
+ * Difficulty: medium
+ */
 public class ZigZagConversion {
 
     public String convert(String s, int numRows) {

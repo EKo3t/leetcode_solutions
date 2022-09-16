@@ -3,6 +3,10 @@ package shadow.leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @see <a href="https://leetcode.com/problems/power-of-three/">Task description</a>
+ * Difficulty: easy
+ */
 public class PowerOf3 {
 
     private static final Set<Integer> POWERS_OF_3 = new HashSet<>();

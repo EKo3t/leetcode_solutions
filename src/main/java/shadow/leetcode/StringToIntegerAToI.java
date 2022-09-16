@@ -5,6 +5,7 @@ import java.text.StringCharacterIterator;
 
 /**
  * @see <a href="https://leetcode.com/problems/string-to-integer-atoi/">Task description</a>
+ * Difficulty: medium
  */
 class StringToIntegerAToI {
 

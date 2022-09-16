@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/**
+ * @see <a href="https://leetcode.com/problems/number-of-islands/">Task description</a>
+ * Difficulty: medium
+ */
 public class NumberOfIslands {
     // up, right, down, left
     private static final int[][] MOVEMENT_DELTAS = new int[][]{

@@ -4,6 +4,7 @@ import shadow.leetcode.util.IntListNode;
 
 /**
  * @see <a href="https://leetcode.com/problems/remove-linked-list-elements/">Task description</a>
+ * Difficulty: easy
  */
 class RemoveLinkedListElements {
 

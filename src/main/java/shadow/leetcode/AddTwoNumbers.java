@@ -4,6 +4,7 @@ import shadow.leetcode.util.IntListNode;
 
 /**
  * @see <a href="https://leetcode.com/problems/add-two-numbers/">Task description</a>
+ * Difficulty: medium
  */
 class AddTwoNumbers {
 

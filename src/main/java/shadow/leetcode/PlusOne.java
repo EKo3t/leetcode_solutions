@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/plus-one/">Task description</a>
+ * Difficulty: easy
+ */
 public class PlusOne {
     public int[] plusOne(int[] digits) {
         if (areAllDigitNines(digits)) {

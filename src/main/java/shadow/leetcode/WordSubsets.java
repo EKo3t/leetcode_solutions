@@ -3,6 +3,10 @@ package shadow.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @see <a href="https://leetcode.com/problems/word-subsets/">Task description</a>
+ * Difficulty: medium
+ */
 public class WordSubsets {
 
     public List<String> wordSubsets(String[] words1, String[] words2) {

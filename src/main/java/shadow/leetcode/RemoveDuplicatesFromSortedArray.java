@@ -2,6 +2,7 @@ package shadow.leetcode;
 
 /**
  * @see <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Task description</a>
+ * Difficulty: easy
  */
 class RemoveDuplicatesFromSortedArray {
 

@@ -5,6 +5,7 @@ import java.util.Set;
 
 /**
  * @see <a href="https://leetcode.com/problems/happy-number/">Task description</a>
+ * Difficulty: easy
  */
 class HappyNumber {
 

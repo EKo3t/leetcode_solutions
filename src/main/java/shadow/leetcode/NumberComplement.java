@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/number-complement/">Task description</a>
+ * Difficulty: easy
+ */
 public class NumberComplement {
 
     public int findComplement(int num) {
