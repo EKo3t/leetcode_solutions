@@ -2,7 +2,7 @@ package shadow.leetcode;
 
 /**
  * @see <a href="https://leetcode.com/problems/shuffle-string/">Task description</a>
- * Difficulty: medium
+ * Difficulty: easy
  */
 public class ShuffleString {
 
