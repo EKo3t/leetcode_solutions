@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/single-number/">Task description</a>
+ * Difficulty: easy
+ */
 public class SingleNumber {
 
     public int singleNumber(int[] nums) {
