@@ -1,7 +1,7 @@
 package shadow.leetcode;
 
 /**
- * @see <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/">Task description</a>
+ * @see <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">Task description</a>
  * Difficulty: medium
  */
 public class TwoSum2InputArrayIsSorted {
