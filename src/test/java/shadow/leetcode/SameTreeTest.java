@@ -15,8 +15,8 @@ public class SameTreeTest {
     public void shouldReturnCorrectResults(int[] first, int[] second, boolean expected) {
         var objectUnderTest = new SameTree();
         Assertions.assertEquals(expected, objectUnderTest.isSameTree(
-            TreeNodes.convert(first),
-            TreeNodes.convert(second)
+            TreeNodes.convertToNode(first),
+            TreeNodes.convertToNode(second)
         ));
     }
 

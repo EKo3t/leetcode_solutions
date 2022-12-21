@@ -14,7 +14,7 @@ public class DiameterOfBinaryTreeTest {
     @MethodSource("provideArguments")
     public void shouldReturnCorrectResults(int[] given, int answer) {
         var objectUnderTest = new DiameterOfBinaryTree();
-        Assertions.assertEquals(answer, objectUnderTest.diameterOfBinaryTree(TreeNodes.convert(given)));
+        Assertions.assertEquals(answer, objectUnderTest.diameterOfBinaryTree(TreeNodes.convertToNode(given)));
     }
 
     private static Stream<Arguments> provideArguments() {
