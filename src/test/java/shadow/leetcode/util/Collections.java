@@ -1,5 +1,6 @@
 package shadow.leetcode.util;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -15,5 +16,19 @@ public final class Collections {
             }
         }
         return strings1Set.isEmpty();
+    }
+
+    public static <T extends Comparable<T>> boolean areEqual(T[] array, List<T> elements) {
+        if (array.length != elements.size())
+            return false;
+
+        List<T> sorted = elements.stream().sorted().toList();
+        Arrays.sort(array);
+
+        for (int i = 0; i < sorted.size(); i++)
+            if (!sorted.get(i).equals(array[i]))
+                return false;
+
+        return true;
     }
 }
