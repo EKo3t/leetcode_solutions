@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @see <a href="https://leetcode.com/problems/permutations/">Task description</a>
+ * Difficulty: medium
+ */
 public class Permutations {
 
     public List<List<Integer>> permute(int[] nums) {

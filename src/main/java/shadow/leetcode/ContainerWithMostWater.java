@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/container-with-most-water/">Task description</a>
+ * Difficulty: medium
+ */
 public class ContainerWithMostWater {
 
     public int maxArea(int[] height) {

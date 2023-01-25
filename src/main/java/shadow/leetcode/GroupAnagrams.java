@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @see <a href="https://leetcode.com/problems/group-anagrams/">Task description</a>
+ * Difficulty: medium
+ */
 public class GroupAnagrams {
 
     public List<List<String>> groupAnagrams(String[] strs) {

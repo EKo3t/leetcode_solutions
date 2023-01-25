@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/maximum-difference-between-increasing-elements/">Task description</a>
+ * Difficulty: easy
+ */
 public class MaximumDifferenceBetweenIncreasingElements {
 
     public int maximumDifference(int[] nums) {

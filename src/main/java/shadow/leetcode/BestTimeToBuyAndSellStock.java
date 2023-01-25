@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Task description</a>
+ * Difficulty: easy
+ */
 public class BestTimeToBuyAndSellStock {
 
     public int maxProfit(int[] prices) {

@@ -2,6 +2,10 @@ package shadow.leetcode;
 
 import shadow.leetcode.util.TreeNode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/diameter-of-binary-tree/">Task description</a>
+ * Difficulty: easy
+ */
 public class DiameterOfBinaryTree {
 
     public int diameterOfBinaryTree(TreeNode root) {

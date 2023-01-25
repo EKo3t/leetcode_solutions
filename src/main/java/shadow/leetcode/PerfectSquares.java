@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/perfect-squares/">Task description</a>
+ * Difficulty: medium
+ */
 public class PerfectSquares {
 
     private static final int[] SQUARES = new int[] {

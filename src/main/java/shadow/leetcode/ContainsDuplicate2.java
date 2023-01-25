@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeSet;
 
+/**
+ * @see <a href="https://leetcode.com/problems/contains-duplicate-ii/">Task description</a>
+ * Difficulty: easy
+ */
 public class ContainsDuplicate2 {
 
     public boolean containsNearbyDuplicate(int[] nums, int k) {

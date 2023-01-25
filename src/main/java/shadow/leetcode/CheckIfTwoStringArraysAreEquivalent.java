@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/">Task description</a>
+ * Difficulty: easy
+ */
 public class CheckIfTwoStringArraysAreEquivalent {
 
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {

@@ -3,6 +3,10 @@ package shadow.leetcode;
 import java.util.Arrays;
 import java.util.HashSet;
 
+/**
+ * @see <a href="https://leetcode.com/problems/first-missing-positive/">Task description</a>
+ * Difficulty: hard
+ */
 public class FirstMissingPositive {
 
     public int firstMissingPositive(int[] nums) {

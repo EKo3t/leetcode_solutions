@@ -5,6 +5,10 @@ import shadow.leetcode.util.IntListNode;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/**
+ * @see <a href="https://leetcode.com/problems/break-a-palindrome/">Task description</a>
+ * Difficulty: hard
+ */
 public class MergeKSortedLists {
 
     public IntListNode mergeKLists(IntListNode[] lists) {

@@ -1,5 +1,9 @@
 package shadow.leetcode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/kth-largest-element-in-an-array/">Task description</a>
+ * Difficulty: medium
+ */
 public class KthLargestElementInAnArray {
 
     public int findKthLargest(int[] nums, int k) {

@@ -2,6 +2,10 @@ package shadow.leetcode;
 
 import shadow.leetcode.util.TreeNode;
 
+/**
+ * @see <a href="https://leetcode.com/problems/balanced-binary-tree/">Task description</a>
+ * Difficulty: easy
+ */
 public class BalancedBinaryTree {
 
     public boolean isBalanced(TreeNode root) {
@@ -15,7 +19,6 @@ public class BalancedBinaryTree {
         }
     }
 
-    //
     private int calculateDepthAndCheckForBalance(TreeNode node) throws NotBalancedException {
         if (node.left == null && node.right == null) return 1;
 
