@@ -31,4 +31,24 @@ public final class Collections {
 
         return true;
     }
+
+    public static <T extends Comparable<T>> boolean areEqual(List<T> expected, List<T> elements) {
+        if (expected == null && elements == null)
+            return true;
+
+        if (expected == null || elements == null)
+            return false;
+
+        if (expected.size() != elements.size())
+            return false;
+
+        List<T> sorted = elements.stream().sorted().toList();
+        List<T> sortedExpected = expected.stream().sorted().toList();
+
+        for (int i = 0; i < sorted.size(); i++)
+            if (!sorted.get(i).equals(sortedExpected.get(i)))
+                return false;
+
+        return true;
+    }
 }
