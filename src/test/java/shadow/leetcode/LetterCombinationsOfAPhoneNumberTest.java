@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import shadow.leetcode.util.Collections;
+import shadow.leetcode.util.MyCollections;
 
 import java.util.stream.Stream;
 
@@ -15,7 +15,7 @@ public class LetterCombinationsOfAPhoneNumberTest {
     @ParameterizedTest
     @MethodSource("provideArguments")
     public void shouldReturnCorrectAnswer(String given, String[] expected) {
-        Assertions.assertTrue(Collections.areEqual(expected, SOLUTION.letterCombinations(given)));
+        Assertions.assertTrue(MyCollections.areEqual(expected, SOLUTION.letterCombinations(given)));
     }
 
     private static Stream<Arguments> provideArguments() {

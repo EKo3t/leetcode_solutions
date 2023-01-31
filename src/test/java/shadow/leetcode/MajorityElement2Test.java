@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import shadow.leetcode.util.Collections;
+import shadow.leetcode.util.MyCollections;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +18,7 @@ public class MajorityElement2Test {
     public void shouldReturnCorrectResults(int[] numbers, int[] expected) {
         var objectUnderTest = new MajorityElement2();
         List<Integer> expectedElements = Arrays.stream(expected).boxed().collect(Collectors.toList());
-        Assertions.assertTrue(Collections.areEqual(expectedElements, objectUnderTest.majorityElement(numbers)));
+        Assertions.assertTrue(MyCollections.areEqual(expectedElements, objectUnderTest.majorityElement(numbers), Integer::compareTo));
     }
 
     private static Stream<Arguments> provideArguments() {

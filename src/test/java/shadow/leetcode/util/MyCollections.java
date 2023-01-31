@@ -1,11 +1,12 @@
 package shadow.leetcode.util;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public final class Collections {
+public final class MyCollections {
 
     public static boolean hasTheSameElements(List<String> strings1, List<String> strings2) {
         Set<String> strings1Set = new HashSet<>(strings1);
@@ -32,21 +33,21 @@ public final class Collections {
         return true;
     }
 
-    public static <T extends Comparable<T>> boolean areEqual(List<T> expected, List<T> elements) {
+    public static <T> boolean areEqual(List<T> expected, List<T> elements, Comparator<T> comparator) {
         if (expected == null && elements == null)
             return true;
 
-        if (expected == null || elements == null)
+        if (expected == null || elements == null || comparator == null)
             return false;
 
         if (expected.size() != elements.size())
             return false;
 
-        List<T> sorted = elements.stream().sorted().toList();
-        List<T> sortedExpected = expected.stream().sorted().toList();
+        List<T> sorted = elements.stream().sorted(comparator).toList();
+        List<T> sortedExpected = expected.stream().sorted(comparator).toList();
 
         for (int i = 0; i < sorted.size(); i++)
-            if (!sorted.get(i).equals(sortedExpected.get(i)))
+            if (comparator.compare(sorted.get(i), sortedExpected.get(i)) != 0)
                 return false;
 
         return true;
