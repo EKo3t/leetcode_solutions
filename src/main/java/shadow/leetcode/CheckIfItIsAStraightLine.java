@@ -6,7 +6,6 @@ import java.util.Arrays;
  * @see <a href="https://leetcode.com/problems/check-if-it-is-a-straight-line">Task description</a>
  * Difficulty: easy
  */
-
 public class CheckIfItIsAStraightLine {
 
     public boolean checkStraightLine(int[][] coordinates) {
